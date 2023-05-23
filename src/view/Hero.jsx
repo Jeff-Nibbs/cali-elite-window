@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div
       id='hero'
-      className='bg-[url("./assets/back-room.jpg")] min-h-screen bg-no-repeat bg-cover bg-center bg-fixed bg-gray-500 bg-blend-multiply flex justify-center items-center'
+      className='bg-[url("./assets/back-room.jpg")] min-h-screen bg-no-repeat bg-cover bg-center md:bg-fixed bg-gray-500 bg-blend-multiply flex justify-center items-center'
     >
       <div className='text-center max-w-screen-xl text-neutral-200'>
         <p className=' font-lato font-light text-xl md:text-2xl uppercase'>Professional Window Cleaning</p>
