@@ -10,7 +10,7 @@ function Nav() {
         <a href='#' className='hover:text-neutral-300'>
           services
         </a>
-        <a href='#' className='hover:text-neutral-300'>
+        <a href='#about' className='hover:text-neutral-300'>
           about
         </a>
         <a href='#' className='hover:text-neutral-300'>
