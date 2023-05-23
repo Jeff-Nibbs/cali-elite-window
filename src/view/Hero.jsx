@@ -2,8 +2,8 @@ function Hero() {
   return (
     <div className='bg-[url("./assets/back-room.jpg")] min-h-screen bg-no-repeat bg-cover bg-center bg-fixed bg-gray-500 bg-blend-multiply flex justify-center items-center'>
       <div className='text-center  text-neutral-200'>
-        <p className=' font-lato font-light text-2xl uppercase'>Professional Window Cleaning</p>
-        <h1 className='text-8xl font-prompt font-bold mt-2 mb-10'>Honesty, Integrity, and Service</h1>
+        <p className=' font-lato font-light text-xl md:text-2xl uppercase'>Professional Window Cleaning</p>
+        <h1 className='md:text-7xl text-5xl lg:text-8xl font-prompt font-bold mt-7 mb-12 md:mt-2 md:mb-10'>Honesty, Integrity, and Service</h1>
         <div className='flex justify-center gap-10'>
           <a
             href='mailto: dakota@calielitewindows.com'
