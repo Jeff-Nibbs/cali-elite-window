@@ -1,3 +1,4 @@
+import About from './view/About'
 import Hero from './view/Hero'
 import Nav from './view/Nav'
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <About />
     </>
   )
 }
