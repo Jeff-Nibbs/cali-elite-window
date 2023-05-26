@@ -4,7 +4,10 @@ import { FiHome } from 'react-icons/fi'
 
 function PickMe() {
   return (
-    <div className='lg:flex lg:justify-center lg:items-center lg:flex-col relative text-center p-5 text-neutral-200 font-prompt font-bold bg-[url("./assets/nook-room.jpg")] min-h-screen bg-no-repeat bg-cover bg-center md:bg-fixed bg-gray-500 bg-blend-multiply'>
+    <div
+      id='services'
+      className='lg:flex lg:justify-center lg:items-center lg:flex-col relative text-center p-5 text-neutral-200 font-prompt font-bold bg-[url("./assets/nook-room.jpg")] min-h-screen bg-no-repeat bg-cover bg-center md:bg-fixed bg-gray-500 bg-blend-multiply'
+    >
       <h2 className='pt-10 w-10/12 m-auto lg:m-0 text-3xl md:text-5xl lg:text-8xl'>Discover the Advantage of Choosing Us</h2>
       <div className='md:flex justify-center mt-20 gap-10'>
         <div className='bg-neutral-800 border border-neutral-200 bg-opacity-70 max-w-md shadow rounded-xl p-5 my-7'>

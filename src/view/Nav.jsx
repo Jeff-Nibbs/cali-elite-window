@@ -41,18 +41,18 @@ function Nav() {
       <a href='#hero' className='mr-auto text-4xl hover:text-neutral-300'>
         <TbWindow />
       </a>
-      <div className='flex gap-14 font-lato font-light text-xl justify-between items-center uppercase'>
-        <motion.a href='#' className='flex flex-col justify-center items-center gap-0.5' whileHover='hover' initial='rest' animate='rest'>
+      <div className='flex gap-5 md:gap-24 font-lato font-light text-xl justify-between items-center uppercase'>
+        <motion.a href='#services' className='flex flex-col justify-center items-center gap-0.5' whileHover='hover' initial='rest' animate='rest'>
           <motion.span variants={textMotion}>services</motion.span>
-          <motion.div variants={lineMotion} className='h-px bg-sky-500'></motion.div>
+          <motion.div variants={lineMotion} className='h-0.5 bg-sky-500'></motion.div>
         </motion.a>
         <motion.a href='#about' className='flex flex-col justify-center items-center gap-0.5' whileHover='hover' initial='rest' animate='rest'>
           <motion.span variants={textMotion}>about</motion.span>
-          <motion.div variants={lineMotion} className='h-px bg-sky-500'></motion.div>
+          <motion.div variants={lineMotion} className='h-0.5 bg-sky-500'></motion.div>
         </motion.a>
-        <motion.a href='#' className='flex flex-col justify-center items-center gap-0.5' whileHover='hover' initial='rest' animate='rest'>
+        <motion.a href='#contact' className='flex flex-col justify-center items-center gap-0.5' whileHover='hover' initial='rest' animate='rest'>
           <motion.span variants={textMotion}>contact</motion.span>
-          <motion.div variants={lineMotion} className='h-px bg-sky-500'></motion.div>
+          <motion.div variants={lineMotion} className='h-0.5 bg-sky-500'></motion.div>
         </motion.a>
       </div>
     </div>

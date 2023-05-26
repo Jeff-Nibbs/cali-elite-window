@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function Contact() {
   return (
-    <div className='min-h-screen w-full lg:flex mx-auto '>
+    <div id='contact' className='min-h-screen w-full lg:flex mx-auto '>
       <div className='h-80 lg:h-auto bg-center lg:w-1/2 flex-none bg-cover bg-no-repeat rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden md:bg-fixed bg-[url("./assets/food-room.jpg")] bg-gray-300 bg-blend-multiply'></div>
       <div className='w-full border-r md:border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-neutral-200 rounded-b lg:rounded-b-none lg:rounded-r py-16 px-12 flex flex-col items-start justify-center leading-normal'>
         <h2 className='lg:text-5xl text-2xl md:text-4xl font-prompt font-bold text-neutral-800 my-10 md:w-10/12 lg:w-10/12 mx-auto'>

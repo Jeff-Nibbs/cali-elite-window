@@ -2,8 +2,8 @@ import kidWashing from '../assets/kid-cleaning.jpg'
 
 function About() {
   return (
-    <div id='about' className='max-w-screen-xl mx-auto px-5 py-20 min-h-screen text-neutral-700 lg:text-xl text-sm md:text-lg font-lato font-light'>
-      <h2 className='text-4xl text-neutral-800 md:text-6xl lg:text-7xl text-center font-prompt font-bold m-5'>
+    <div className='max-w-screen-xl mx-auto px-5 py-20 min-h-screen text-neutral-700 lg:text-xl text-sm md:text-lg font-lato font-light'>
+      <h2 id='about' className='text-4xl text-neutral-800 md:text-6xl lg:text-7xl text-center font-prompt font-bold m-5'>
         Our Story: Bringing Clarity to Your Windows
       </h2>
       <div className='top md:flex gap-7 mx-auto'>
