@@ -12,7 +12,7 @@ function About() {
           <h2 className='text-center md:text-left'>Focus on providing friendly and reliable customer service</h2>
         </div>
         <div className='md:w-11/12'>
-          <img className='object-cover rounded-full' src={kidWashing} alt='kid washing windows' />
+          <img className='object-cover rounded-full border-4 border-sky-500' src={kidWashing} alt='kid washing windows' />
         </div>
         <div className='flex md:flex-col justify-evenly mx-3 py-5 md:py-auto'>
           <h2 className='text-center md:text-left'>Customizable service plans tailored to meet specific window cleaning needs</h2>
