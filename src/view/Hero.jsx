@@ -19,7 +19,8 @@ function Hero() {
       className='bg-[url("./assets/back-room.jpg")] min-h-screen bg-no-repeat bg-cover bg-center md:bg-fixed bg-gray-500 bg-blend-multiply flex justify-center items-center'
     >
       <div className="text-center max-w-screen-xl text-neutral-200">
-        <h1 className="md:text-7xl text-5xl lg:text-6xl font-prompt font-bold mt-7 mb-5  md:mt-2 ">California Elite Windows LLC </h1>
+        <h1 className="md:text-7xl text-5xl lg:text-7xl font-prompt font-bold mt-7 mb-5  md:mt-2 ">California Elite Windows LLC </h1>
+        <h2 className="md:text-4xl text-3xl lg:text-5xl font-prompt font-bold mt-7 mb-5  md:mt-2 ">Professional Window Cleaning Services</h2>
         <h2 className="md:text-3xl text-2xl lg:text-4xl font-lato uppercase font-light mb-12 md:mb-10">Honesty, Integrity, and Service</h2>
         <div className="flex justify-center gap-10">
           <motion.a
