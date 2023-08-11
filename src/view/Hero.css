@@ -1,0 +1,31 @@
+.title {
+  transform: translate(-50%, 0);
+}
+.custom-shape-divider-bottom-1691641198 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1691641198 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1691641198 .shape-fill {
+  fill: #ffffff;
+}
+
+.fade-in {
+  transition: opacity 1.5s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
